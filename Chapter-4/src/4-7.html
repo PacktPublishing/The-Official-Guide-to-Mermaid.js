@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body { font-family: 'Arial'; }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+flowchart LR
+  Default[The default<br/>configuration]
+  Integration[The site configuration <br/>application of site specific modifications<br/>to the default configuration]
+  Directives[The rendering configuration<br/>application of diagram specific directives<br/>to the site configuration]
+  Default --> Integration --> Directives
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: false,
+        securityLevel: 'loose',
+        sequence:{mirriorActors: true}
+      });
+    </script>
+  </body>
+</html>

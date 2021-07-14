@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body { font-family: 'Arial'; }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+%%{wrap}%%
+sequenceDiagram
+    A->>B: A long text which will illustrate the effects of the wrap directive
+    participant B as A long actor name illustrating the effects of the wrap directive
+    Note left of B: A long note illustrating the effects of the wrap directive
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: false,
+        securityLevel: 'loose',
+        sequence:{mirriorActors: true}
+      });
+    </script>
+  </body>
+</html>
