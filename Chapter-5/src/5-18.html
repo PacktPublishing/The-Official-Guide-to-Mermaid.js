@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body { font-family: 'Arial'; }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"#cb9edb", "secondaryColor":"#ddc0e8", "tertiaryColor":"#edddf3"}}}%%
+flowchart LR
+Batter --> Baking
+
+subgraph Batter
+    a[Whip eggs and milk] -- whipped --> b[Add flour and salt<br/>and whip the batter]
+    b-->d
+    d{Smooth?} -- yes --> e((Batter done))
+    d-- no --> b
+end
+
+
+subgraph Baking
+    i[heat the cascet but not too much] -->f
+    f[Add butter to cascet] --> g[Add 1dl batter and wiggle the cascet<br>to spread the batter evenly]
+    g --> h[Turn the pancake over when the batter has<br/>solidified so that it gets color on both sides.]
+    h--> j[Serve and enjoy]
+end
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: false,
+        securityLevel: 'loose',
+      });
+    </script>
+  </body>
+</html>

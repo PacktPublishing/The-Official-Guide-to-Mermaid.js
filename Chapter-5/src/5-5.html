@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body { font-family: 'Arial'; }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+%%{init:{"theme":"forest"}}%%
+flowchart TB
+Batter --> Baking[Start baking]
+
+subgraph Batter
+    a[Whip eggs and milk] -- whipped --> b[Add flour and salt<br/>and whip the batter]
+    b-->d
+    d{Smooth?} -- yes --> e((Batter done))
+    d-- no --> b
+end
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: false,
+        securityLevel: 'loose',
+      });
+    </script>
+  </body>
+</html>

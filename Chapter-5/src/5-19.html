@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body { font-family: 'Arial'; }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"#cb9edb", "secondaryColor":"#ddc0e8", "tertiaryColor":"#edddf3"}}}%%
+flowchart LR
+    subgraph ullamco
+        A([Lorem]) --> B(dolor sit) -.-> C[amet]
+        A --> D[[consectetur]] ==ipsum==> E[(adipisci)]
+        A --> F((adipisci)) --> G[/adipisci/]
+        E --> H>adipisci] --sed do--> I[\adipisci\]
+        G --> J[/adipisci\] --sed do--> K[\adipisci/]
+        C &  I & K --> HEX{{eiusmod}}
+    end
+    subgraph nisi
+        Q{anim id}
+        Q --> L[Excepteur]
+        Q ---> M[sint]
+        Q ----> N[occaecat]
+        Q -.-> O[cupidatat]
+        Q -..-> R[non proident]
+        Q -...-> S[sunt]
+        O ====> Z3[sunt in culpa]
+        R ===> Z2[qui officia]
+        S ==> Z1[deserunt ]
+    end
+ullamco --> nisi
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: false,
+        securityLevel: 'loose',
+      });
+    </script>
+  </body>
+</html>

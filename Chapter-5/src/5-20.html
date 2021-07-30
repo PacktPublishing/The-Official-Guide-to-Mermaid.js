@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body { font-family: 'Arial'; }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"#cb9edb", "secondaryColor":"#ddc0e8", "tertiaryColor":"#edddf3"}}}%%
+sequenceDiagram
+  autonumber
+  Lorem->>+Ipsum: Sed do eiusmod tempor
+  Lorem->>+Ipsum: Ullamco laboris nisi ut
+  Ipsum ->>+ Dolor: Aliquip ex ea
+  Dolor -->>- Ipsum: Commodo consequat
+  Ipsum-->>-Lorem: Incididunt ut labore
+  Ipsum-->>-Lorem: Ut enim ad
+  par Action 1
+    Lorem->>Ipsum: Sit amet, consectetur
+  and Action 2
+    Lorem->>Dolor: Adipiscing elit
+  end
+  Note right of Ipsum: Et dolore magna aliqua
+      loop Minim veniam
+        Lorem-->Lorem: Quis nostrud exercitation
+    end
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: false,
+        securityLevel: 'loose',
+      });
+    </script>
+  </body>
+</html>

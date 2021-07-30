@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body { font-family: 'Arial'; }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+%%{init:{"theme":"base", "themeVariables": {"primaryColor":"#cb9edb", "secondaryColor":"#ddc0e8", "tertiaryColor":"#edddf3"}}}%%
+
+classDiagram
+	Lorem "1" <|-- Dolor
+	Lorem <|-- "1..*" Sit
+	Lorem <--o Amet
+	Lorem : +int enim
+	Lorem : +String nemo
+	Lorem: +quiaVoluptas()
+	Lorem: +aspernatur()
+    &lt;&lt;interface>> Lorem
+    &lt;&lt;abstract>> Dolor
+    &lt;&lt;Service>> Sit
+    &lt;&lt;enumeration>> Amet
+	class Dolor{
+		+String fugiatQuo
+		+aut()
+		+odit()
+	}
+	class Sit{
+		-int utEnimAd
+		-minimaVeniam()
+	}
+	class Amet{
+		+bool quis_nostrum
+		+ullam()
+	}
+    class Ipsum {
+      &lt;&lt;enumeration>>
+      SED
+      UNDE
+      OMNIS
+      NATUS
+      BLACK
+    }
+Lorem *-- "*" Ipsum
+Dolor o-- Consectetur
+Dolor <-- Adipiscing
+Sit -- Elit
+Sit <.. Sed
+Amet <|.. Quia
+Amet .. Velit
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <!-- <script src="http://localhost:9000/mermaid.js"></script> -->
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: false,
+        securityLevel: 'loose',
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      body {
+        font-family: 'Arial';
+       }
+       text.sectionTitle {
+        font-size: 18px !important;
+      }
+       .grid .tick text {
+        font-size: 18px !important;
+      }
+    </style>
+  </head>
+  <body>
+    Testa
+<div class="mermaid">
+%%{init:{"theme":"base", "gantt": {"fontSize": 18, "leftPadding": 120}, "themeVariables": {"primaryColor":"#cb9edb", "secondaryColor":"#ddc0e8", "tertiaryColor":"#edddf3"}}}%%
+
+gantt
+       dateFormat                :YYYY-MM-DD
+       title                     Lorem ipsum dolor sit amet
+       section Consectetur
+       Eiusmod tempor            :done,    lor1, 2024-01-06,2024-01-08
+       Incididunt                :active,  lor2, 2024-01-09, 1d
+       Ut labore                 :         lor3, after lor2, 1d
+       Et dolore                 :         lor4, after lor3, 2d
+
+       section Sed do
+       Nulla pariatur               :after ips1, 1d
+       Excepteur sint occaecat cupidatat      :22h
+       Eunt in culpa qui officia deserunt   :1d
+
+       section Elit
+       Dolor in reprehenderit               :active, dol1, after lor1, 3d
+       In voluptate velit      :after dol1  , 24h
+       Esse cillum dolore eu fugiat    :ips1, after dol1  , 1d
+
+       section Adipiscing
+       Ut enim ad minim veniam :crit, done, 2024-01-06,24h
+       Magna aliqua          :crit, done, after lor1, 2d
+       Quis nostrud exercitation             :crit, active, 1d
+       Ullamco laboris nisi ut aliquip        :crit, 2d
+       Ex ea commodo consequat           :24h
+       Duis aute irure                      :1d
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({
+        theme: 'neutral',
+        logLevel: 0,
+        htmlLabels: true,
+        useMaxWidth: true,
+        securityLevel: 'loose',
+      });
+    </script>
+  </body>
+</html>
