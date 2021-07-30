@@ -1,2 +1,2 @@
-# The-Complete-Manual-on-Mermaid.js
-The Complete Manual on Mermaid.js, published by Packt
+# The Official Guide to Mermaid.js
+The Official Guide to Mermaid.js, published by Packt
