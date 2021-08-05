@@ -37,7 +37,7 @@ Hello --> World
 **Following is what you need for this book:**
 This book is for content generators such as technical writers, developers, architects, business analysts, and managers who want to learn effective documentation or how to effectively represent diagrams using simple text code snippets and extract them. Any familiarity with documentation using markdown would be helpful, but it is not a necessity.
 
-With the following software and hardware list you can run all code files present in the book (Chapter 1-15).
+With the following software and hardware list you can run all code files present in the book (Chapter 1-13).
 
 ### Software and Hardware List
 
