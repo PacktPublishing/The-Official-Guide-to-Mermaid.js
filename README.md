@@ -1,8 +1,7 @@
 # The Official Guide to Mermaid.js
+<a href="https://www.packtpub.com/product/The-Official-Guide-to-Mermaid.js/9781801078023?utm_source=github&utm_medium=repository&utm_campaign=9781801078023"><img src="https://static.packt-cdn.com/products/9781801078023/cover/smaller" alt="The Official Guide to Mermaid.js" height="256px" align="right"></a>
 
-<a href="https://www.amazon.com/Official-Guide-Mermaid-js-beautiful-flowcharts/dp/1801078025"><img src="https://www.amazon.com/Official-Guide-Mermaid-js-beautiful-flowcharts/dp/180107802" alt="Book Name" height="256px" align="right"></a>
-
-This is the code repository for [The Official Guide to Mermaid.js](https://www.amazon.com/Official-Guide-Mermaid-js-beautiful-flowcharts/dp/1801078025), published by Packt.
+This is the code repository for [The Official Guide to Mermaid.js](https://www.packtpub.com/product/The-Official-Guide-to-Mermaid.js/9781801078023?utm_source=github&utm_medium=repository&utm_campaign=9781801078023), published by Packt.
 
 **Create complex diagrams and beautiful flowcharts easily using text and code**
 
@@ -44,8 +43,8 @@ With the following software and hardware list you can run all code files present
 | Chapter  | Software required                   | OS required                        |
 | -------- | ------------------------------------| -----------------------------------|
 | 2-13     | Node.js                             | Windows, Mac OS X, and Linux (Any) |
-| 2-13     | Visual Studio Code                  | Windows, Mac OS X, and Linux (Any) |
-| 2-13     | Mermaid Live Editor                 | Windows, Mac OS X, and Linux (Any) |
+| 2-13     | A Modern Browser                    | Windows, Mac OS X, and Linux (Any) |
+| 2-13     | A Text Editor                       | Windows, Mac OS X, and Linux (Any) |
 
 
 
@@ -66,8 +65,4 @@ Knut Sveidqvist has extensive experience of working in the e-commerce industry a
 **Ashish Jain**
 Ashish Jain has great experience of working in the e-commerce industry, and having led several developer teams - he understands the value of a good documentation. He currently works as a Technical Lead at Nagarro Software and is also a Core Team Member and contributor to the Mermaid.js OSS. Having worked in several software development teams, he has often worked on project documentation and other documented deliverables like functional requirements, solution design etc, where the need to have a simpler way to draw and integrate diagrams in documents was felt. And the moment he was exposed to Mermaid, he was highly impressed with it and associated himself with the project.
 
-
-## Other books by the authors
-* [Mastering Linux Network Administration](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [Linux Mint Essentials](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
 
