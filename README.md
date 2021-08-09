@@ -1,6 +1,6 @@
 # The Official Guide to Mermaid.js
 
-<a href="https://www.amazon.com/Official-Guide-Mermaid-js-beautiful-flowcharts/dp/1801078025"><img src="Cover Image URL of the Book" alt="Book Name" height="256px" align="right"></a>
+<a href="https://www.amazon.com/Official-Guide-Mermaid-js-beautiful-flowcharts/dp/1801078025"><img src="https://www.amazon.com/Official-Guide-Mermaid-js-beautiful-flowcharts/dp/180107802" alt="Book Name" height="256px" align="right"></a>
 
 This is the code repository for [The Official Guide to Mermaid.js](https://www.amazon.com/Official-Guide-Mermaid-js-beautiful-flowcharts/dp/1801078025), published by Packt.
 
