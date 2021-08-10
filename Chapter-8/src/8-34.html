@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background: #333;
+      font-family: 'Arial';
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mermaid" style="width: 100%; height: 400px;">
+    %%{init:{"theme":"neutral",
+            "themeVariables": {
+              "primaryColor":"#cb9edb", 
+              "secondaryColor":"#ddc0e8",
+              "tertiaryColor":"#edddf3",
+              "mainBkg": "white",
+              "nodeBorder" : "white"
+                              }
+    }}%%
+    classDiagram-v2
+        class DemoClass
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.parseError = function(err, hash) {};
+    mermaid.initialize({
+      theme: 'neutral',
+      themeVariables: {},
+      logLevel: 0,
+      htmlLabels: true,
+      securityLevel: 'loose',
+    });
+
+    function callback() {
+      alert('It worked');
+    }
+  </script>
+  </body>
+
+  </html>

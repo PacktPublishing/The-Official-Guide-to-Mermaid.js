@@ -1,0 +1,92 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial';
+    }
+
+    h1 {
+      color: grey;
+    }
+
+    .mermaid2 {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mermaid" style="width: 100%; height: 400px;">
+    %%{init:{"theme":"neutral"}}%%
+    %% Diagram begins
+
+    %% Start with diagram type identifier
+    classDiagram-v2
+
+    %% 1.Define Shape Class
+    class Shape {
+    +getArea()
+    }
+
+    %% 2.Add interface annotation by using << interface >> Shape
+    << interface >> Shape
+
+    %% 3. Define RectangularShape class
+    class RectangularShape
+
+    %% 4. Add members to RectangularShape class
+    RectangularShape : -width
+    RectangularShape : -height
+    RectangularShape :  +area
+    RectangularShape :  #RectangularShape(width,height)
+    RectangularShape : +contains(point) boolean
+    RectangularShape : +getArea()
+
+    %% 5. Add Abstract annotation to RectangularShape
+    << abstract >> RectangularShape
+
+    %% 6. Add Rectangle class & its members
+    class Rectangle{
+    << implemented >>
+    -x:int 
+    -y:int
+    +Rectangle(x,y,width,height) 
+    +contains(point) boolean
+    +distance(rectangle) double
+    }
+
+    %% 7. Add relations
+    Shape <|.. RectangularShape : implements
+    RectangularShape <|-- Rectangle : extends
+
+    %% Diagram End
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.parseError = function(err, hash) {};
+    mermaid.initialize({
+      theme: 'neutral',
+      themeVariables: {
+        labelBoxBkgColor: "black",
+        labelBoxColor: "black",
+        labelTextColor: "white",
+        noteBkgColor: "white",
+      },
+      logLevel: 0,
+      htmlLabels: true,
+      securityLevel: 'loose',
+    });
+
+    function callback() {
+      alert('It worked');
+    }
+  </script>
+  </body>
+
+  </html>
