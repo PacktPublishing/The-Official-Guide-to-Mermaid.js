@@ -1,0 +1,71 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Arial';
+    }
+
+    h1 {
+      color: grey;
+    }
+
+    .mermaid2 {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="mermaid" style="width:800px; height: 400px;">
+    gantt
+    title A Gantt chart with 'neutral' theme
+    dateFormat  YYYY-MM-DD
+    section Phase-1
+      Task-1 : t1, 2021-05-01, 30d
+    section Phase-2
+      Task-1 : after t1  , 20d
+    section Phase-3
+      Task-3 : done,2021-05-12  , 12d
+    section Phase-4
+      Task-4 : active, 24d
+    section Phase-5
+      Task-5 : crit,2d
+    section Phase-6
+      Task-6 : 1d
+    section Phase-7
+      Task-7 : milestone,crit,0d
+    click t1 href "https://mermaidjs.github.io/"          
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.parseError = function(err, hash) {};
+    mermaid.initialize({
+      theme: 'neutral',
+      themeVariables: {
+        critBorderColor: "black",
+        critBkgColor: "black",
+        todayLineColor: "darkgrey"
+      },
+      logLevel: 0,
+      htmlLabels: true,
+      securityLevel: 'loose',
+    });
+
+    function callback() {
+      alert('It worked');
+    }
+    var printArguments = function(arg1, arg2, arg3) {
+      alert('printArguments called with arguments: ' + arg1 + ', ' + arg2 + ', ' + arg3);
+    }
+    var printTask = function(taskId) {
+      alert('taskId: ' + taskId);
+    }
+  </script>
+  </body>
+
+  </html>
