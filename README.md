@@ -66,3 +66,7 @@ Knut Sveidqvist has extensive experience of working in the e-commerce industry a
 Ashish Jain has great experience of working in the e-commerce industry, and having led several developer teams - he understands the value of a good documentation. He currently works as a Technical Lead at Nagarro Software and is also a Core Team Member and contributor to the Mermaid.js OSS. Having worked in several software development teams, he has often worked on project documentation and other documented deliverables like functional requirements, solution design etc, where the need to have a simpler way to draw and integrate diagrams in documents was felt. And the moment he was exposed to Mermaid, he was highly impressed with it and associated himself with the project.
 
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781801078023">https://packt.link/free-ebook/9781801078023 </a> </p>
