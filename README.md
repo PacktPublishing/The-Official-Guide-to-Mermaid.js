@@ -1,3 +1,15 @@
+
+### Get this product for $5
+
+<i>Packt is having its biggest sale of the year. Get this eBook or any other book, video, or course that you like just for $5 each</i>
+
+
+<b><p align='center'>[Buy now](https://packt.link/9781801078023)</p></b>
+
+
+<b><p align='center'>[Buy similar titles for just $5](https://subscription.packtpub.com/search)</p></b>
+
+
 # The Official Guide to Mermaid.js
 <a href="https://www.packtpub.com/product/The-Official-Guide-to-Mermaid.js/9781801078023?utm_source=github&utm_medium=repository&utm_campaign=9781801078023"><img src="https://static.packt-cdn.com/products/9781801078023/cover/smaller" alt="The Official Guide to Mermaid.js" height="256px" align="right"></a>
 
